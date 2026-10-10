@@ -89,7 +89,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 4. LOAD MODEL INDOBERT
-MODEL_PATH = "Model IndoBERT"
+MODEL_PATH = "dappa2999/indobert-tiktok-cyberbullying"
 
 @st.cache_resource
 def load_model_and_tokenizer():
